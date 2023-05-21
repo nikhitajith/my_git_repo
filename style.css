@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.banner{
+    background-image: url('steve-jobs\ \(2\).jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    padding: 0 0;
+    margin-left: 0;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: aliceblue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+.content{
+    text-align: left;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 90px;
+    margin-top: 230px;
+    font-size: x-large;
+    font-weight: 200;
+    animation: textup 20s linear infinite;
+    animation-iteration-count: 1;
+    transform: translateY(100px);
+}
+@keyframes textup{
+    10%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.head{
+    font-weight: 200;
+    color: rgb(166, 173, 177);
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.subhead{
+    font-size: large;
+    margin-left: -20px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.heading{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 50px;
+   font-family:Arial, Helvetica, sans-serif;
+   color: transparent;
+   -webkit-text-stroke: 1px #000000;
+  
+}
+
+.subheading{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+    color: rgb(77, 76, 76);
+}
+.education{
+    background-color: darkgray;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 100px;
+    text-align: center;
+    animation: textup 30s linear infinite;
+    transform: translateY(100px);
+    animation-iteration-count: 1;
+
+}
+@keyframes textup{
+    10%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.edcon{
+    margin-top: 40px;
+    text-align: justify;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.eduhead{
+    font-size: xx-large;
+    margin-top: -30px;
+} background-image: linear-gradient(rgba(72, 69, 69, 0.75),transparent), url("background1.jpg");
+
+.innovation{
+    background-color: darkgray;
+    text-align: justify;
+
+}
+
+.innovhead{
+    font-size: xx-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.innovcon{
+    margin-top: -70px;
+    text-align: justify;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 130px;
+}
+.list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 100px;
+    margin-top: 20px;
+   
+    padding-bottom: 40px;
+}
+
+.padding{
+    margin-bottom: 10px;
+    
+}
+.headin{
+    text-align: center;
+    color: #000000;
+    font-size: xx-large;
+    margin-top: -60px;
+}
+.life{
+    
+   
+    background-color: darkgray;
+}
+
+.lifehead{
+    font-size: xx-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin-top: 40px;
+   
+}
+.lifecon{
+    margin-top: -100px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+    
+}
+.awardhead{
+    margin-top: -40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.awardcon{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    
+}
+.award{
+   
+    padding: 100px;
+}
+@keyframes slideInUp{
+    from{
+        transform: translateX(60px);
+    }
+    to{
+        transform: translateX(20px);
+    }
+}
+.body{
+    animation-name: slideInUp;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    transform: translateX(20px);
+}
+.banner2{
+   background-image: url('MV5BZTY4MGM0NTUtNjg5OS00ZDU1LWIzYTEtOTIwNGE1YmVhZGU0XkEyXkFqcGdeQXVyNzEwNTUwNjc@._V1_.jpg');
+   padding: 200px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   margin-top: -160px;
+   animation: textup 30s linear infinite;
+   transform: translateY(100px);
+   animation-iteration-count: 1;
+}
+@keyframes textup{
+    10%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.subhead2{
+    font-size: x-large;
+  margin-left: 10px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+
+}
+.banner3{
+    background-image: url('steve_jobs_iphone_photo1.jpg');
+   padding: 200px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   margin-top: -30px;
+   margin-bottom: 50px;
+}
+.subhead3{
+    font-size: large;
+  margin-left: -60px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
